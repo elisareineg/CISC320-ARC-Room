@@ -1,0 +1,23 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build SFML",
+            "type": "shell",
+            "command": "clang++ -std=c++17 *.cpp -o game -I$(brew --prefix sfml)/include -L$(brew --prefix sfml)/lib -lsfml-graphics -lsfml-window -lsfml-system && ./game",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Run tests",
+            "type": "shell",
+            "command": "clang++ -std=c++17 tests/KeycardPuzzle_test.cpp ARC/KeycardPuzzle.cpp -o /tmp/keycard_test && /tmp/keycard_test",
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            }
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+Background photos are from Wikimedia Commons (Category:Stauffer Library). They were cropped,
+recoloured and had grain and a silhouette added.
+
+img/menu_bg.png
+    "Staufferlibrary.JPG" by Shin. Public domain.
+    https://commons.wikimedia.org/wiki/File:Staufferlibrary.JPG
+
+img/caught_bg.png
+    "Stauffer Library 2.JPG" by Scott17172. Public domain.
+    https://commons.wikimedia.org/wiki/File:Stauffer_Library_2.JPG
+
+img/exit_bg.png
+    "Joseph S. Stauffer Library exterior in 2007.jpg" by John Vetterli. CC BY-SA 2.0.
+    https://commons.wikimedia.org/wiki/File:Joseph_S._Stauffer_Library_exterior_in_2007.jpg
+    https://creativecommons.org/licenses/by-sa/2.0/
+    The edited image is shared under the same licence.
+
+Fonts are loaded from the system font folder and are not included.

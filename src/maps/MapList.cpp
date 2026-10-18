@@ -2,11 +2,14 @@
 // all the maps in the game, in the order they show up in the menu
 #include "../Map.h"
 #include "StaufferMap.h"
+#include "ArcMap.h"
 
 Map* createMap(int index) {
     switch (index) {
     case 0:
         return new StaufferMap();
+    case 1:
+        return new ArcMap();
     }
     return nullptr;
 }

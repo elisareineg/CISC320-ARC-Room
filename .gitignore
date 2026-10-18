@@ -38,6 +38,8 @@
 *.exe
 *.out
 *.app
+gaeljail
+game
 
 # Build directories
 build/

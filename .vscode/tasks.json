@@ -4,7 +4,7 @@
         {
             "label": "Build SFML",
             "type": "shell",
-            "command": "clang++ -std=c++17 *.cpp -o game -I$(brew --prefix sfml)/include -L$(brew --prefix sfml)/lib -lsfml-graphics -lsfml-window -lsfml-system && ./game",
+            "command": "clang++ -std=c++17 src/*.cpp src/maps/*.cpp -o gaeljail -I$(brew --prefix sfml)/include -L$(brew --prefix sfml)/lib -lsfml-graphics -lsfml-window -lsfml-system && ./gaeljail",
             "group": {
                 "kind": "build",
                 "isDefault": true
@@ -18,6 +18,11 @@
                 "kind": "test",
                 "isDefault": true
             }
+        },
+        {
+            "label": "Run ARC playthrough",
+            "type": "shell",
+            "command": "clang++ -std=c++17 tests/ArcMap_playthrough.cpp src/Map.cpp src/maps/ArcMap.cpp src/maps/*Puzzle.cpp -o /tmp/arc_playthrough && /tmp/arc_playthrough"
         }
     ]
 }

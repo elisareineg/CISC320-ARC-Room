@@ -1,6 +1,6 @@
 #include <cassert>
 #include <iostream>
-#include "../ARC/LockerPuzzle.h"
+#include "../src/maps/LockerPuzzle.h"
 
 int main() {
     std::mt19937 rng(42);   // fixed seed, same result every run

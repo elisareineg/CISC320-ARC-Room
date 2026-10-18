@@ -1,6 +1,6 @@
 #include <cassert>
 #include <iostream>
-#include "../ARC/CourtPuzzle.h"
+#include "../src/maps/CourtPuzzle.h"
 
 int main() {
     Seat correct{Side::left, 12};

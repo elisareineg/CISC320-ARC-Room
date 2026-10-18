@@ -13,7 +13,7 @@
         {
             "label": "Run tests",
             "type": "shell",
-            "command": "clang++ -std=c++17 tests/KeycardPuzzle_test.cpp ARC/KeycardPuzzle.cpp -o /tmp/keycard_test && /tmp/keycard_test",
+            "command": "clang++ -std=c++17 tests/KeycardPuzzle_test.cpp src/maps/KeycardPuzzle.cpp -o /tmp/keycard_test && /tmp/keycard_test && clang++ -std=c++17 tests/LockerPuzzle_test.cpp src/maps/LockerPuzzle.cpp -o /tmp/locker_test && /tmp/locker_test && clang++ -std=c++17 tests/CourtPuzzle_test.cpp src/maps/CourtPuzzle.cpp -o /tmp/court_test && /tmp/court_test",
             "group": {
                 "kind": "test",
                 "isDefault": true

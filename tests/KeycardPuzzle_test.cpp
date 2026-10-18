@@ -1,6 +1,6 @@
 #include <cassert>
 #include <iostream>
-#include "../ARC/KeycardPuzzle.h"
+#include "../src/maps/KeycardPuzzle.h"
 
 int main() {
     KeyCardPuzzle puzzle({Location::Reception, Location::MerchStore, Location::Bleachers});
